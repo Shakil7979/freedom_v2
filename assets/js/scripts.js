@@ -29,6 +29,14 @@ $(document).ready(function(){
 		}
 	});
 
+	$('.testimonials').owlCarousel({
+		items:1,
+		loop:true,
+		nav:false,
+		dots:true,
+		autoplay:true, 
+	});
+
 
 
 

@@ -401,8 +401,32 @@ input:focus:focus-visible {
 	background: #ddd;
 }
 
+.testimonials {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	box-shadow: 0 2px 10px #ddd;
+	padding: 50px  25px;
+	border-radius: 15px;
+}
 
+.testimonials_content {
+	text-align: center;
+}
 
+.testi_start ul {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.testi_user {
+	margin-top: 25px;
+}
+
+.testimonials .owl-dot.active span {
+	background: #DB8703 !important;
+}
 
 
 /*======================  End Page  ======================*/
