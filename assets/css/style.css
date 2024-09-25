@@ -72,10 +72,25 @@ ul li a,a{
 }
 
 .banner_text{ 
+	position: relative;
 	/* padding: 33px 0 25px 0;  */
-	background: url(../images/banner/banner.png) no-repeat scroll center center / cover;
+	/* background: url(../images/banner/banner.png) no-repeat scroll center center / cover; */
 }
 
+.banner_text img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.banner_text_h4 { 
+	position: absolute;
+	top: 25px;
+}
+
+.banner_area {
+	background: #DDDDDD;
+	padding: 25px 0;
+}
 
 
 .banner_form h3 {
@@ -180,11 +195,11 @@ ul li a,a{
 	display: flex;
 	gap: 25px;
 	justify-content: space-between;
-	margin-top: 30px;
+ 
 }
 
 .banner_text {
-	flex: 0 0 60%; 
+	flex: 0 0 63%; 
 }
 
 .banner_text_h4 {
