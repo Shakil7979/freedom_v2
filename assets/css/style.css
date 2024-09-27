@@ -78,9 +78,7 @@ ul li a,a{
 }
 
 .banner_text img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+	width: 100%;   
 }
 .banner_text_h4 { 
 	position: absolute;
